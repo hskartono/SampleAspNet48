@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bosvcMovieService", "bosvcM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "daoInMemoryMovie", "daoInMemoryMovie\daoInMemoryMovie.csproj", "{CAAFF431-E7F6-480D-BDF0-90C59700D874}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "utMovie", "utMovie\utMovie.csproj", "{734C7CC5-39E2-4143-B9AE-0AE080D4E50D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{CAAFF431-E7F6-480D-BDF0-90C59700D874}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAAFF431-E7F6-480D-BDF0-90C59700D874}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAAFF431-E7F6-480D-BDF0-90C59700D874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{734C7CC5-39E2-4143-B9AE-0AE080D4E50D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{734C7CC5-39E2-4143-B9AE-0AE080D4E50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{734C7CC5-39E2-4143-B9AE-0AE080D4E50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{734C7CC5-39E2-4143-B9AE-0AE080D4E50D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

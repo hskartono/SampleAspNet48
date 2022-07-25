@@ -5,6 +5,14 @@ VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingAspNet", "TrainingAspNet\TrainingAspNet.csproj", "{2B1BAEFD-0ACA-4D95-9FC2-E8570D3326C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlMovie", "mdlMovie\mdlMovie.csproj", "{8353DFC6-B3B4-4E45-80D3-95EC3FC548F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "svcMovieService", "svcMovieService\svcMovieService.csproj", "{145BC578-F2CE-4234-BF89-BFA56A72A917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bosvcMovieService", "bosvcMovieService\bosvcMovieService.csproj", "{88BC7FA2-2BC5-4E15-8988-5FA1195F54E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "daoInMemoryMovie", "daoInMemoryMovie\daoInMemoryMovie.csproj", "{CAAFF431-E7F6-480D-BDF0-90C59700D874}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{2B1BAEFD-0ACA-4D95-9FC2-E8570D3326C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B1BAEFD-0ACA-4D95-9FC2-E8570D3326C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B1BAEFD-0ACA-4D95-9FC2-E8570D3326C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8353DFC6-B3B4-4E45-80D3-95EC3FC548F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8353DFC6-B3B4-4E45-80D3-95EC3FC548F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8353DFC6-B3B4-4E45-80D3-95EC3FC548F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8353DFC6-B3B4-4E45-80D3-95EC3FC548F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{145BC578-F2CE-4234-BF89-BFA56A72A917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{145BC578-F2CE-4234-BF89-BFA56A72A917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{145BC578-F2CE-4234-BF89-BFA56A72A917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{145BC578-F2CE-4234-BF89-BFA56A72A917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88BC7FA2-2BC5-4E15-8988-5FA1195F54E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88BC7FA2-2BC5-4E15-8988-5FA1195F54E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88BC7FA2-2BC5-4E15-8988-5FA1195F54E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88BC7FA2-2BC5-4E15-8988-5FA1195F54E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAAFF431-E7F6-480D-BDF0-90C59700D874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAAFF431-E7F6-480D-BDF0-90C59700D874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAAFF431-E7F6-480D-BDF0-90C59700D874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAAFF431-E7F6-480D-BDF0-90C59700D874}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

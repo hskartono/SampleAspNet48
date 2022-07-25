@@ -125,7 +125,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -171,6 +170,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -184,6 +184,20 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\bosvcMovieService\bosvcMovieService.csproj">
+      <Project>{88bc7fa2-2bc5-4e15-8988-5fa1195f54e8}</Project>
+      <Name>bosvcMovieService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\mdlMovie\mdlMovie.csproj">
+      <Project>{8353dfc6-b3b4-4e45-80d3-95ec3fc548f1}</Project>
+      <Name>mdlMovie</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\svcMovieService\svcMovieService.csproj">
+      <Project>{145bc578-f2ce-4234-bf89-bfa56a72a917}</Project>
+      <Name>svcMovieService</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
